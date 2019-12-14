@@ -16,3 +16,27 @@
     padding: 50px;
     text-align: center;
 }
+
+.three {
+    grid-column: 3/5;
+    grid-row: 1;
+    background-color: yellow;
+}
+
+.five {
+    grid-column: 2/4;
+    grid-row: 2;
+    background-color: darkorchid;
+}
+
+.nine {
+    grid-column: 4;
+    grid-row: 3/5;
+    background-color: tomato;
+}
+
+.doz {
+    grid-column: 3;
+    grid-row: 3/5;
+    background-color: cyan;
+}
